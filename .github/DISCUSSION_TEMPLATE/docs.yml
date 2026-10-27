@@ -1,0 +1,28 @@
+title: "[Docs] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for telling us about a problem with the Hisn.io docs.
+  - type: input
+    id: page-url
+    attributes:
+      label: Page URL
+      description: The docs page this is about. The "Report an issue" link fills it in.
+    validations:
+      required: true
+  - type: textarea
+    id: what-is-wrong
+    attributes:
+      label: What is wrong
+      description: What is wrong, missing or unclear on the page.
+    validations:
+      required: true
+  - type: textarea
+    id: what-you-expected
+    attributes:
+      label: What you expected
+      description: What you expected to find, or what would have helped.
+    validations:
+      required: false
